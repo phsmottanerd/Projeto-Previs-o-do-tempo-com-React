@@ -1,0 +1,50 @@
+.weather-container{
+background-color: aliceblue;
+border-radius: 10px;
+padding: 20px;
+margin:20px 0;
+
+}
+
+h2{
+
+font-size: 4rem;
+color: black;
+Display: flex;
+align-items: center;
+justify-content: center;
+}
+.weather-info{
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+}
+
+.description{
+text-transform: capitalize;
+   font-weight: bold;
+   font-size: 2.5rem; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 3rem;
+}
+
+.details{
+    font-weight: bold;
+   font-size: 1.5rem; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header{
+
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 18px;
+    color: white; 
+}
